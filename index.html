@@ -3,21 +3,63 @@
   <head>
     <meta charset="UTF-8">
     <title>HTML</title>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <style>
+      body {
+        background-color: #B7E4C7;
+      }
+
+      a {
+         color: #1B4332;
+      }
+
+      h1 {
+        font-family: monospace;
+        font-size: 40px;
+        color: #081C15;
+      }
+
+      ul {
+        font-family: Shadows Into Light, sans-serif;
+        font-size: 40px;
+        color: #1B4332;
+      }
+
+      li {
+        font-family: Shadows Into Light, sans-serif;
+        font-size: 20px;
+        color: #2D6A4F;
+      }
+
+      p {
+        color: #081C15;
+      }
+
+      .impar {
+        font-size: 23px;
+      }
+
+      .par {
+        font-size: 18px;
+      }
+
+    </style>
   </head>
   <body>
       <h1><strong>Gustavo Rios Autran Filho</strong></h1><br>
       <h2><ul>Índice:</ul></h2><br>
-      <a href="#eu"><li>Foto</li></a>
-      <a href="#descr"><li>Descrição</li></a>
-      <a href="#list"><li>Lista de competências</li></a>
-      <a href="#mal"><li>MyAnimeList</li></a><br><br>
+      <a href="#eu"><li class="impar">Foto</li></a>
+      <a href="#descr"><li class="par">Descrição</li></a>
+      <a href="#list"><li class="impar">Lista de competências</li></a>
+      <a href="#mal"><li class="par">MyAnimeList</li></a><br><br>
       <img src="eu.jpg" width="300px" alt="Foto levemente sorridente minha" id="eu">
       <p id="descr">Olá, bem vindo a minha página de portifólio. Sou Gustavo Rios, nasci e moro no Rio de Janeiro/RJ. Sou desenvolvedor de software estudando pela Trybe. Além disso, gosto de passar meu tempo livre praticando canto, jogando, assistindo conteúdo audio-visual e ouvindo música. Faço academia também.</p>
       <ul id="list"><h3>Dentre meus domínios e habilidades:</h3></ul>
-      <li>Vocalista, sem dúvida o que mais domino.</li>
-      <li>Avaliação de obras musicais e audiovisuais</li>
-      <li>HTML</li>
-      <li>Academia</li>
+      <li class="impar">Vocalista, sem dúvida o que mais domino.</li>
+      <li class="par">Avaliação de obras musicais e audiovisuais</li>
+      <li class="impar">HTML</li>
+      <li class="par">Academia</li>
+      <li class="impar">CSS</li>
       <br><br>
       <a href="#eu"><strong>Voltar para a minha foto</strong></a><br>
       <a href="https://myanimelist.net/animelist/CustomRobo872" target="_blank" id="mal">Animes que já vi e minhas avaliações</a>
