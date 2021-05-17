@@ -1,0 +1,62 @@
+body {
+    background-color: #B7E4C7;
+    padding: 3%;
+}
+
+a {
+    color: #1B4332;
+}
+
+h1 {
+    font-family: monospace;
+    font-size: 40px;
+    color: #081C15;
+}
+
+ul {
+    font-family: Shadows Into Light, sans-serif;
+    font-size: 40px;
+    color: #1B4332;
+}
+
+li {
+    font-family: Shadows Into Light, sans-serif;
+    font-size: 20px;
+    color: #2D6A4F;
+}
+
+p {
+    color: #081C15;
+}
+
+.impar {
+    font-size: 23px;
+}
+
+.par {
+    font-size: 18px;
+}
+
+.foto {
+    display: inline-block;
+    float: left;
+    background-color: #1B4332;
+    padding: 30px 30px;
+}
+
+.desc {
+    float: left;
+    max-width: 30%;
+}
+
+.list {
+    margin-top: 400px;
+}
+
+.title {
+    text-align: center;
+}
+
+.skill:nth-child(even) {
+    color: #081C15;
+}
